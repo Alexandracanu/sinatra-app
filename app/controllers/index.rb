@@ -1,5 +1,5 @@
 get '/' do
-    erb :index
+  erb :index
 end
 
 get '/page2.erb' do

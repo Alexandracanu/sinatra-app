@@ -125,11 +125,17 @@ img.photo3 {
     margin-left: 50px;
 }
 .texte1 {
-    margin-left: 10px;
+    margin-left: 20px;
 }
 .texte2 {
-    margin-left: 30px;
+    margin-left: 60px;
 }
 .texte3 {
-    margin-left: 50px;
+    margin-left: 110px;
+}
+footer.footer {
+    width: 100%;
+    margin-top: 50px;
+    float: left;
+    text-align: center;
 }
