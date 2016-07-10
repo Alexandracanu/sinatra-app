@@ -6,6 +6,48 @@
   <script src="<%= url("/js/main.js")%>" type="text/javascript" > </script>
 </head>
 <body>
-  <h1>Hello World</h1>
+  <div class="header">
+    <header class="menu">
+      <img class="logo" src="data:image/png;base64,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" alt="logo Cake">
+      <div class="recherche">
+        <input type="search" placeholder="Rechercher" name="q"/>
+        <img class="loupe" src="http://www.poliris.fr/z/portail/poliris_2011/minisite/nomade/images/loupe-rose.png">
+    </div>
+      <nav class="nav">
+        <ul>
+          <a href="#"> <li class="navigation-horizontale"> Accueil </li> </a>
+          <a href="#"> <li class="navigation-horizontale"> Recettes </li> </a>
+          <a href="#"> <li class="navigation-horizontale"> Conseils et Astuces </li> </a>
+          <a href="#"> <li class="navigation-horizontale"> Santé &amp; Bien-être </li> </a>
+        </ul>
+      </nav>
+    </div>
+    </header>
+    <div class="gateau-texte-parent">
+      <img class="fondant-chocolat" src="http://www.sunny-delices.fr/wp-content/uploads/2015/06/fondant-chocolat-sans-gluten.jpg">
+          <a class="lien-recette-fondant" href="http://nutritoibien.fr/recette-fondant-chocolat-a-compote-de-pommes/"> Recette du fondant au chocolat sans beurre </a>
+    </div>
+        </article>
+          <section class="articles">
+            <article class="water-detox">
+              <img src="http://thedailycrisp.com/wp-content/uploads/2016/01/water-detox-e1453557693151.jpg">
+              <h1> Water Detox </h1>
+              <p> C'est l'été, l'occasion de tester toutes nos nouvelles recettes de water detox: citron, concombre, gingembre, pomme...  </p>
+            </article>
+            <article class="cupcakes">
+              <img src="http://www.cookingclassy.com/wp-content/uploads/2014/06/strawberry-cupcakes-step5+srgb..jpg">
+              <h2> Cupcakes </h2>
+              <p> Pour vos soirées, anniversaires, retrouvez les recettes de Cupcakes...  </p>
+            </article>
+            <article class="conseils">
+              <img src="https://s-media-cache-ak0.pinimg.com/736x/27/2d/59/272d5976f59627a12318f469de96c27a.jpg">
+              <h3> Conseils Nutritionnels </h3>
+              <p> Découvrez tous nos conseils nutritionnels pour se faire plaisir en gardant la ligne...  </p>
+            </article>
+          </section>
+          <footer> Made with &#9825; by Béré & Alex
+            <p> Follow us on </p>
+            <a href="https://www.facebook.com/berenice.desaintjores?fref=ts"> <img src="http://www.rosebeton.fr/wp-content/uploads/2015/09/480px-Facebook_icon_2013.svg_-150x150.png"> </a>
+          </footer>
 </body>
 </html>
